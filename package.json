@@ -1,0 +1,11 @@
+{
+  "name": "playground-database-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Moxie",
+  "description": "",
+  "dependencies": {
+    "mongodb": "^6.13.0",
+    "ws": "^8.18.0"
+  }
+}
