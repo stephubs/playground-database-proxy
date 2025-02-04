@@ -40,15 +40,15 @@ node index.js
 docker build -t mongodb-websocket-proxy .
 ```
 
-or Pull compiled image from AWS ECR
-```bash
-docker pull public.ecr.aws/w9y9l0z2/playground/database-proxy:latest
-```
-
 2. Run the Docker container:
 
 ```bash
 docker run -p 9000:9000 mongodb-websocket-proxy
+```
+
+or run compiled image from AWS ECR
+```bash
+docker run -p 9000:9000 public.ecr.aws/w9y9l0z2/playground/database-proxy:latest
 ```
 
 ## Usage
