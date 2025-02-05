@@ -48,8 +48,11 @@ docker run -p 9000:9000 mongodb-websocket-proxy
 
 or run compiled image from AWS ECR
 ```bash
+docker pull public.ecr.aws/w9y9l0z2/playground/database-proxy:latest
 docker run -p 9000:9000 public.ecr.aws/w9y9l0z2/playground/database-proxy:latest
 ```
+
+you can find more details about how to pull public images from AWS ECR [here](https://docs.aws.amazon.com/AmazonECR/latest/public/docker-pull-ecr-image.html)
 
 ## Usage
 
